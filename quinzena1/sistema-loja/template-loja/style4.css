@@ -1,0 +1,55 @@
+body {
+    background-color: slategrey;
+    margin: 30px
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: lightslategrey;
+    
+}
+
+.center {
+    text-align: center;
+    background-color: lightslategray;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+.center2 {
+    background-color: limegreen;
+    width: 300px;
+}
+
+.center3 {
+    width: 500px
+}
+.center4{
+    width: 500px
+}
+
+.center5 {
+    width: 500px
+}
+
+.center6 {
+    width: 500px
+}
+
+.center7 {
+    width: 500px
+}
+
+
+
+div {
+    background-color:red;
+    font-size: 25px;
+    
+}
+
+.botao {
+    background-color: seagreen;
+    padding: 15px
+}
