@@ -1,0 +1,32 @@
+body {
+    background-color: orangered;
+    margin: 30px
+}
+
+p {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: lightslategrey;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.margem {
+    margin-right: 30px;
+    font-size: 50px;
+    background-color: mediumblue;
+    width: 300px;
+    
+}
+
+.center2 {
+    font-size: 30px;
+    margin-right: 120px;
+    background-color:teal;
+    width: 300px;
+    
+}

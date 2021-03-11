@@ -1,0 +1,20 @@
+body {
+    background-color:plum;
+    margin: 30px
+}
+
+
+p {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: darkcyan;
+}
+.center {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+tr {
+    background-color: gray;
+}

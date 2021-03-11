@@ -1,0 +1,42 @@
+h1 {
+    color:blue;
+    background:cyan;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    }
+
+    .h1-conteiner{
+        width: 1800px;
+    }
+
+.center {
+    font-size: 25px;
+    background:darkgoldenrod;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.center2 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 140px;
+
+}
+.left {
+    font-size: 30px;
+    text-align:left;
+    height: 280px;
+    background-color: brown;
+    margin-bottom: 100px;
+}
+
+.conteiner {
+    background-color: lightblue;
+    margin: 30px
+}
+.center3 {
+    font-size: 30px;
+    font-family:fantasy;
+    text-align: center;
+}

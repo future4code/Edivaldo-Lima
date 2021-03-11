@@ -5,48 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adicionar Produto</title>
+    <link rel="stylesheet" type="text/css" href="style4.css"/>
 </head>
 <body>
     <div>
         <p>Loja dos Mestres</p>
     </div>
     
-    <div>
-        <a href="file:///C:/Users/ediva/Edivaldo-Lima/semana1/sistema-loja/template-loja/index.html">Página Inicial</a>
-        <a href="file:///C:/Users/ediva/Edivaldo-Lima/semana1/sistema-loja/template-loja/ctrl-estoque.html">Controle de Estoque</a>
-        <a href="file:///C:/Users/ediva/Edivaldo-Lima/semana1/sistema-loja/template-loja/add-produto.html">Adicionar Produto</a>
-        <a href="file:///C:/Users/ediva/Edivaldo-Lima/semana1/sistema-loja/template-loja/funcionarios.html">Funcionários</a>
+    <div class="center">
+        <a style="margin-right: 20px;" href="file:///C:/Users/ediva/Edivaldo-Lima/quinzena1/sistema-loja/template-loja/index.html">Página Inicial</a>
+        <a style="margin-right: 20px;" href="file:///C:/Users/ediva/Edivaldo-Lima/quinzena1/sistema-loja/template-loja/ctrl-estoque.html">Controle de Estoque</a>
+        <a style="margin-right: 20px;" href="file:///C:/Users/ediva/Edivaldo-Lima/quinzena1/sistema-loja/template-loja/add-produto.html">Adicionar Produto</a>
+        <a style="margin-right: 20px;" href="file:///C:/Users/ediva/Edivaldo-Lima/quinzena1/sistema-loja/template-loja/funcionarios.html">Funcionários</a>
     </div>
 
     
-    <h2>Adicionar Produto</h2>
+    <h2 class="center2">Adicionar Produto</h2>
     <form action="">
-        <div>
+        <div class="center3">
             <label for="link-foto">Link para foto: </label>
             <input type="url" id="link-foto" name="link-foto">
         </div>
         
-        <div>
+        <div class="center4">
             <label for="descricao">Descrição do produto: </label>
             <!-- Adicione o id apropriado para o input abaixo -->
             <input type="text" id="descricao" name="nome">
         </div>
         
-        <div>
+        <div class="center5">
             <label for="preco">Preço (em R$): </label>
             <!-- Adicione o id apropriado e o type para receber números abaixo -->
             <input type="number" id="preco" name="preço">
         </div>
         
-        <div>
+        <div class="center6">
             <!-- Preencha as propriedades necessárias para os elementos abaixo -->
             <label>Quantidade disponível: </label>
             <input type="number" id="quantidade" name="nome">
         </div>
 
-        <div class="form-add">
+        <div class="center7" class="form-add">
             <!-- Adicione ao type do botão abaixo o valor para que ele submeta o formulário -->
-            <button type="submit">Adicionar</button>
+            <button class="botao" type="submit">Adicionar</button>
         </div>
 
     </form>
