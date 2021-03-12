@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: cadetblue;
+    text-align: left;
+    height: 100px;
+    
+}
+.center2 {
+    text-align: center;
+    background-color: darkturquoise;
+}
+
+h3 {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.conteiner {
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.conteiner2 {
+    background-color: cyan;
+    font-size: 25px;
+}
+.alinhar {
+    text-align: left;
+}
