@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Noto+Sans+TC&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+body {
+    background-color: #D4F1F4;
+    background-image: url(./img/17Blue-Green.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    background-color: #05445E;
+    height: 80px;
+    text-align: center;
+}
+.topnav {
+    background-color: #189AB4;
+    height: 50px;
+    display:flex;
+    align-items: center;
+}
+.topnav a {
+    color:teal
+    border: 2px solid;
+    padding: 2px;
+    margin: 10px;
+}   
+a {
+    text-decoration: none;
+}
+
+img {
+    height:auto;
+    width: 300px;
+}
+h3 {
+    margin: 20px;
+}
+footer {
+    background-color: #05445E;
+    position:fixed; 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#selecionar {
+    color: gold;
+    border: 2px solid;
+}
+.tamanho {
+    height: 30px;
+    width: auto;
+}
