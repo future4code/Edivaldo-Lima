@@ -1,0 +1,30 @@
+body{
+    background-color: darkgrey;
+}
+h1 {
+    background-color: aquamarine;
+    text-align:left;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.center2 {
+    text-align: center;
+    margin: 100px
+}
+
+table {
+    background-color:darkcyan; 
+    width: 500px;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+
+    
+}
+   
+th {
+    background-color: darkgoldenrod;
+}
+
