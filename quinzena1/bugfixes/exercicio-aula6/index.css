@@ -20,9 +20,13 @@ input {
     height: 20px;
     width: 500px;
 }
+button:hover {
+    background-color: whitesmoke;
+}
 
 button:focus {
     color: white;
+    
 }
 
 img {
