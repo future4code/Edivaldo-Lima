@@ -3,10 +3,10 @@
   *  ESTILOS GERAIS 
   *
   **/
-
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -19,14 +19,16 @@ h2 {
 input {
     height: 20px;
     width: 500px;
-}
-button:hover {
-    background-color: whitesmoke;
+    border-left:none ;
+    border-right:none ;
+    border-top:none ;
 }
 
-button:focus {
+
+button:focus, button:hover {
     color: white;
-    
+    background-color: goldenrod;
+    cursor: pointer;    
 }
 
 img {
@@ -75,10 +77,13 @@ div img {
     background-color: #2274a5;
     color: white;
     padding: 50px;
+
 }
 
 #container-de-descricao>ol {
     padding: 15px 0px;
+    
+    
 }
 
 #container-para-comprar {
@@ -106,6 +111,7 @@ div:last-child {
 table {
     width: 60%;
     text-align: center;
+    margin:auto
 }
 table img {
     width: auto;
@@ -124,6 +130,7 @@ td button {
 .container-do-search {
     margin-top: 20px;
     height: 100px;
+    
 }
 
 
