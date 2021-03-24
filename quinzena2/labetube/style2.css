@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+header {
+    display:flex;
+    background-color: green;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+
+div {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+
+    
+}
+video {
+    height: 720px;
+    width: 1020px;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: greenyellow;
+}
