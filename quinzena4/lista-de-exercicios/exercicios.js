@@ -12,7 +12,13 @@ function inverteArray(array) {
 //Exercício 2
 
 function retornaNumerosParesElevadosADois (array) {
-   // implemente sua lógica aqui
+   
+   let arrayPares = []
+   for(let i = 0; i <array.length; i++) {
+      if (array[i] % 2 === 0) {
+         arrayPares.push(array[i] * array[i])
+      }
+   }return arrayPares
 }
 
 //Exercício 3
