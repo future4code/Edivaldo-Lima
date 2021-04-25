@@ -29,6 +29,13 @@ function retornaNumerosPares (array) {
 
 function retornaMaiorNumero(array) {
    // implemente sua lógica aqui
+   let maiorNumero = array[0];
+   for (let i = 0; i < array.length; i++) {
+      if (maiorNumero < array[i]) {
+         maiorNumero = array[i]
+      }
+   }
+   return maiorNumero
 }
 
 //Exercício 5
@@ -77,6 +84,13 @@ function ordenaArray(array) {
 
 function filmeFavorito() {
    // implemente sua lógica aqui
+   let filme = {
+    nome: 'O Diabo Veste Prada',
+    ano: 2006,
+    diretor: 'David Frankel',
+    atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+   }
+   return filme
 }
 
 // Exercício 13
