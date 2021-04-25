@@ -1,8 +1,13 @@
 //Exercício 1
 
 function inverteArray(array) {
-  // implemente sua lógica aqui
-}
+  
+   let arrayInvertido = [];
+   for(let i = array.length - 1; i >= 0; i--) {
+       arrayInvertido.push(array[i])
+     }
+   return arrayInvertido
+   }
 
 //Exercício 2
 
@@ -13,7 +18,7 @@ function retornaNumerosParesElevadosADois (array) {
 //Exercício 3
 
 function retornaNumerosPares (array) {
-   // implemente sua lógica aqui
+   
    
    let novoArray = [];
    for(let i = 0; i < array.length; i++) {
@@ -28,7 +33,7 @@ function retornaNumerosPares (array) {
 //Exercício 4
 
 function retornaMaiorNumero(array) {
-   // implemente sua lógica aqui
+   
    let maiorNumero = array[0];
    for (let i = 0; i < array.length; i++) {
       if (maiorNumero < array[i]) {
@@ -83,7 +88,7 @@ function ordenaArray(array) {
 // Exercício 12
 
 function filmeFavorito() {
-   // implemente sua lógica aqui
+   
    let filme = {
     nome: 'O Diabo Veste Prada',
     ano: 2006,
@@ -96,13 +101,21 @@ function filmeFavorito() {
 // Exercício 13
 
 function imprimeChamada() {
-   // implemente sua lógica aqui
-}
+   
+   let filme = {
+      nome: 'O Diabo Veste Prada',
+      ano: 2006,
+      diretor: 'David Frankel',
+      atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+     }
+     return `Venha assister ao ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}`
+   }
 
+   
 // Exercício 14
 
 function criaRetangulo(lado1, lado2) {
-   // implemente sua lógica aqui
+   
    let retangulo = {
       largura: lado1,
       altura: lado2,
