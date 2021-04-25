@@ -1,7 +1,8 @@
 //Exercício 1
 
 function inverteArray(array) {
-  
+   let newArray = [0, 8, 23, 16, 10, 15, 41, 12, 13]
+
    let arrayInvertido = [];
    for(let i = array.length - 1; i >= 0; i--) {
        arrayInvertido.push(array[i])
@@ -12,7 +13,8 @@ function inverteArray(array) {
 //Exercício 2
 
 function retornaNumerosParesElevadosADois (array) {
-   
+   let newArray = [1, 2, 3, 4, 5, 6]
+
    let arrayPares = []
    for(let i = 0; i <array.length; i++) {
       if (array[i] % 2 === 0) {
@@ -24,8 +26,8 @@ function retornaNumerosParesElevadosADois (array) {
 //Exercício 3
 
 function retornaNumerosPares (array) {
-   
-   
+   let newArray = [1, 2, 3, 4, 5, 6]
+
    let novoArray = [];
    for(let i = 0; i < array.length; i++) {
       if(array[i] % 2 === 0) {
@@ -39,7 +41,8 @@ function retornaNumerosPares (array) {
 //Exercício 4
 
 function retornaMaiorNumero(array) {
-   
+   let newArray = [10, 18, 7, 56, 39]
+
    let maiorNumero = array[0];
    for (let i = 0; i < array.length; i++) {
       if (maiorNumero < array[i]) {
@@ -52,7 +55,8 @@ function retornaMaiorNumero(array) {
 //Exercício 5
 
 function retornaQuantidadeElementos (array) {
-   // implemente sua lógica aqui
+   let newArray = [1, 2, 3, 4, 5, 6]
+   return array.length
 }
 
 //Exercício 6
