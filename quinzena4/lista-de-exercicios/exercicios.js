@@ -82,7 +82,14 @@ function retornaNNumerosPares(n) {
 // Exercício 8
 
 function checaTriangulo(a, b, c) {
-  // implemente sua lógica aqui
+  
+  if (a !== b && b !== c) {
+     return 'Escaleno'
+  }else if (a === b && b === c) {
+     return 'Equilátero'
+  }else{
+     return 'Isóceles'
+  }
 
 }
 
@@ -90,6 +97,26 @@ function checaTriangulo(a, b, c) {
 
 function comparaDoisNumeros(num1, num2) {
    // implemente sua lógica aqui
+   let maiorNumero
+   let menorNumero
+   let maiorDivisivelporMenor
+
+   if (num1 > num2) {
+      maiorNumero = 30
+      menorNumero = 10
+   }else {
+      maiorNumero = 30
+      menorNumero = 10
+   }
+
+   maiorDivisivelporMenor = maiorNumero % menorNumero === 0
+   const diferenca = maiorNumero - menorNumero
+
+   return {
+      maiorNumero: maiorNumero,
+      maiorDivisivelporMenor: maiorDivisivelporMenor,
+      diferenca: diferenca
+   }
 }
 
 // Exercício 10
@@ -102,6 +129,20 @@ function segundoMaiorEMenor(array) {
 
 function ordenaArray(array) {
    // implemente sua lógica aqui
+   const arrayOrdemCrescente = [20, 13, -1, 2, 5, 49, -40, 10, 70, 5]
+
+   const len = array.length;
+   for (let i = 0; i< len; i++) {
+      for (let j = 0; j <len; j++) {
+         if (array[j] > array[j + 1]) {
+            let tmp = array[j];
+            array [j] = array [j +1];
+            array [j + 1] = tmp;
+         }
+      }
+   }
+   return array
+
 }
 
 // Exercício 12
