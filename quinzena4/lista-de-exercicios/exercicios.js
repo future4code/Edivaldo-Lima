@@ -63,6 +63,7 @@ function retornaQuantidadeElementos (array) {
 
 function retornaExpressoesBooleanas() {
    // implemente sua lógica aqui
+
 }
 
 //Exercício 7
@@ -82,6 +83,7 @@ function retornaNNumerosPares(n) {
 
 function checaTriangulo(a, b, c) {
   // implemente sua lógica aqui
+
 }
 
 // Exercício 9
@@ -125,7 +127,7 @@ function imprimeChamada() {
       diretor: 'David Frankel',
       atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
      }
-     return `Venha assister ao ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}`
+     return `Venha assistir ao ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor} e estrelado por ${filme.atores[0]}, ${filme.atores[1]}, ${filme.atores[2]}, ${filme.atores[3]}`
    }
 
    
@@ -211,6 +213,12 @@ const pessoas = [
 
 function retornaPessoasAutorizadas() {
    // implemente sua lógica aqui
+   let entradaAutorizada = []
+   for (const pessoa of pessoas) {
+      if (pessoa.altura >= 1.5 && pessoa.idade > 14 && pessoa.idade <60) {
+         entradaAutorizada.push(pessoa)
+      }
+   }return entradaAutorizada
 }
 
 
@@ -218,6 +226,12 @@ function retornaPessoasAutorizadas() {
 
 function retornaPessoasNaoAutorizadas() {
    // implemente sua lógica aqui
+   let entradaNaoAutorizada = []
+   for (const pessoa of pessoas) {
+      if (pessoa.altura < 1.5 || pessoa.idade < 14 || pessoa.idade > 60) {
+         entradaNaoAutorizada.push(pessoa)
+      }
+   }return entradaNaoAutorizada
 }
 
 //Exercício 19
