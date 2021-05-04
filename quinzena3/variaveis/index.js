@@ -36,13 +36,14 @@
 //console.log(comidasFavoritas [3])
 //console.log(comidasFavoritas [4])
 
-let perguntas = ["esta vestido de azul?" , "esta na frente do pc?" , "ja tomou banho?"]
+// let perguntas = ["esta vestido de azul?" , "esta na frente do pc?" , "ja tomou banho?"]
 
-let respostas = [false, true, false]
+// let respostas = [false, true, false]
 
-console.log (perguntas [0])
-console.log (respostas [0])
-console.log (perguntas [1])
-console.log (respostas [1])
-console.log (perguntas [2])
-console.log (respostas [2])
+// console.log (perguntas [0])
+// console.log (respostas [0])
+// console.log (perguntas [1])
+// console.log (respostas [1])
+// console.log (perguntas [2])
+// console.log (respostas [2])
+
