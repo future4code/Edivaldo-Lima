@@ -1,12 +1,12 @@
 {
 	"info": {
-		"_postman_id": "0f36e99a-0023-4c02-b9ff-82eb4f5b6e78",
+		"_postman_id": "42b94652-3ade-45ef-a9de-29db6ad5476a",
 		"name": "Labefy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "creat playlist",
+			"name": "Playlist Rock",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -15,7 +15,7 @@
 			"response": []
 		},
 		{
-			"name": "get all playlists",
+			"name": "Playlis Rap",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -24,7 +24,7 @@
 			"response": []
 		},
 		{
-			"name": "deletePlaylis",
+			"name": "Playlist Eletronica",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -33,7 +33,7 @@
 			"response": []
 		},
 		{
-			"name": "addTrackPlaylis",
+			"name": "Get All Playlists",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -42,7 +42,205 @@
 			"response": []
 		},
 		{
-			"name": "seachPlaylist",
+			"name": "Add Music To PlayRock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music To PlayRock2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music to PlayRap",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music to PlayRap2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music To PlayEletro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music To PlayEltro2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get Play List Tracks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Search Playlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Musico To PlayRock3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Musico To PlayRock4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music to Eletro3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Tracks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music To PlayEltro3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Add Music To PlayEletro4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Delelet Playlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Playlis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Add Music To PlayRock",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Add Rock2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Add Rock3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Playlist Rap",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Add Music Rap",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Playlist Eletro",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "New Add Music Eletro",
 			"request": {
 				"method": "GET",
 				"header": [],
