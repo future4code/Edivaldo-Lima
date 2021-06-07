@@ -1,7 +1,7 @@
 import React from 'react';
 import ListaDeUsuarios from "./Components/ListaDeUsuarios"
 import PaginaCriarUsuario from "./Components/PaginaCriarUsuario"
-import axios from "axios"
+
 
 class App extends React.Component {
   state = {
