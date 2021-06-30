@@ -1,18 +1,39 @@
-import React from 'react'
-import styled from 'styled-components';
-import { ButtonContainer, H1, Button } from './styled'
+import React from 'react';
+import { HomeImg, LogoImg, ButtonContainer } from './styled';
+import Logo from './../../Imagens/logo2.png';
+import { useHistory } from 'react-router-dom';
 
+export default function Home() {
 
-function Home() {
+  const history = useHistory()
+
+  const goToListTrips = () => {
+    history.push("/ListTrip")
+  }
+
+  const goToLogin = () => {
+    history.push("/Login")
+  }
+
   return (
     <div>
-      <H1>LabeX</H1>
-      <ButtonContainer>
-          <Button>Ver Viagens</Button>
-          <Button>Fazer Login</Button>
-      </ButtonContainer>
+      <HomeImg>
+        <div>
+          <LogoImg src={Logo}></LogoImg>
+        </div>
+        <ButtonContainer>
+
+          <button onClick={goToListTrips}>Ver Viagens</button>
+
+          <button onClick={goToLogin}>Area Admin</button>
+
+        </ButtonContainer>
+
+      </HomeImg>
+
     </div>
-  );
+
+  )
 }
 
-export default Home;
+

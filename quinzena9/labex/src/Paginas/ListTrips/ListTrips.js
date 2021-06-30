@@ -1,15 +1,25 @@
 import React from "react";
-import { ButtonContainer } from './styled'
-
+import { useHistory } from 'react-router-dom';
 
 function ListTrips() {
+  const history = useHistory()
+
+  const goBack = () => {
+    history.goBack()
+  }
+  
+  const goToApplicationForm = () => {
+    history.push("/ApplicationForm")
+  
+}
+  
     return (
       <div>
-        <ButtonContainer>
-          <button>Voltar</button>
-          <button>Increver-se</button>
-        </ButtonContainer>
-        <h1>Lista de Viagens</h1>
+        <div>
+          <h1>Lista de Viagens</h1>
+          <button onClick={goBack}>VOLTAR</button>
+          <button onClick={goToApplicationForm}>VIAJE AGORA!</button>
+        </div>
       </div>
     );
   }
