@@ -8,7 +8,6 @@ export default function TripDetails () {
             <p>Planeta</p>
             <p>Duração</p>
             <p>Descrição</p>
-    
         </div>
     )
 }

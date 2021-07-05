@@ -1,19 +1,12 @@
 import React from 'react';
-import { HomeImg, LogoImg, ButtonContainer } from './styled';
+import { HomeImg, LogoImg, ButtonContainer, ButtonTrip, ButtonAdmin } from './styled';
 import Logo from './../../Imagens/logo2.png';
 import { useHistory } from 'react-router-dom';
+import { goToListTrips, goToLogin } from '../../Routes/Coodinator';
 
 export default function Home() {
 
   const history = useHistory()
-
-  const goToListTrips = () => {
-    history.push("/ListTrip")
-  }
-
-  const goToLogin = () => {
-    history.push("/Login")
-  }
 
   return (
     <div>
@@ -23,9 +16,9 @@ export default function Home() {
         </div>
         <ButtonContainer>
 
-          <button onClick={goToListTrips}>Ver Viagens</button>
+          <ButtonTrip onClick={() => goToListTrips(history)}>Ver Viagens</ButtonTrip>
 
-          <button onClick={goToLogin}>Area Admin</button>
+          <ButtonAdmin onClick={() => goToLogin(history)}>Area Admin</ButtonAdmin>
 
         </ButtonContainer>
 

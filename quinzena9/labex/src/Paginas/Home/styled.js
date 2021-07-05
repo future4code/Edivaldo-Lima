@@ -6,12 +6,9 @@ export const HomeImg = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-image: url(${Img}); */
+  background-color: #E4DED9;
   width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  height: 100vh; 
 `
 
 export const LogoImg = styled.img`
@@ -23,3 +20,21 @@ export const ButtonContainer = styled.div`
   justify-content: space-between;
   width: 300px;
 `
+export const ButtonTrip = styled.button`
+  border-radius: 10px;
+  width: 120px;
+  height: 80px;
+  background-color: #FF5353;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+`
+
+export const ButtonAdmin = styled.button`
+  border-radius: 10px;
+  width: 120px;
+  background-color: #FF5353;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+` 
