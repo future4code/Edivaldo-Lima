@@ -35,7 +35,7 @@ function retornaNumerosPares(array) {
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
-  
+  return Math.pow(array.filter(item => item % 2 == 0), 2)
 }
 
 
