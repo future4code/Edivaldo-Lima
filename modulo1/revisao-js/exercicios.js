@@ -32,15 +32,16 @@ function retornaNumerosPares(array) {
     return array.filter(x => x % 2 === 0); 
 }
 
-let numerosPares = filter(retornaNumerosPares)
-console.log(numerosPares)
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
   
 }
 
+
 // EXERCÍCIO 06
+
+let maiorNumero = [1, 2, 9, 11]
 function retornaMaiorNumero(array) {
   
 }
@@ -52,7 +53,13 @@ function retornaObjetoEntreDoisNumeros(num1, num2) {
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
-   
+   let numerosPares = [];
+   for (let i = 0; numerosPares.length < n; i++) {
+       if (i % 2 == 0) {
+           numerosPares.push(i)
+       }
+   }
+   return numerosPares;  
 }
 
 // EXERCÍCIO 09
