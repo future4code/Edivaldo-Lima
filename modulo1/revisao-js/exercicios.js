@@ -27,12 +27,13 @@ function retornaArrayOrdenado(array) {
 
 
 // EXERCÍCIO 04
-
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 function retornaNumerosPares(array) {  
-  
+    return array.filter(x => x % 2 === 0); 
 }
 
-console.log(array)
+let numerosPares = filter(retornaNumerosPares)
+console.log(numerosPares)
 
 // EXERCÍCIO 05
 function retornaNumerosParesElevadosADois(array) {
