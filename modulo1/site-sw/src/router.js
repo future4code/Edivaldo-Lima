@@ -3,11 +3,12 @@ import { CharacterListPage } from "./pages/CharacterListPage/CharacterListPage";
 import { CharacterDetailPage } from "./pages/CharacterDetailPage/CharacterDetailPage";
 
 export const Router = () => {
+
     return(
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<CharacterListPage />} />
-                <Route path="/characterdetail" element={<CharacterDetailPage />} />
+                <Route path="/details/:id" element={<CharacterDetailPage />} />
             </Routes>
         </BrowserRouter>
     )
